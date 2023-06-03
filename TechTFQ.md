@@ -27,7 +27,7 @@ git status
 
 ### git workflow
 
-![Alt Text](gitStages.png)
+![Alt Text](gitworkflow.png)
 
 
 

@@ -22,3 +22,15 @@ root@09ae4c2009ae:/# git config --list
 user.name=Pon Jagannath
 user.email==
 ```
+
+### initialize git on a existing code
+
+```
+git init
+```
+
+### stop git from tracking a directory
+
+```
+rm -rf .git
+```

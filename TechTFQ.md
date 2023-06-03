@@ -27,7 +27,7 @@ git status
 
 ### git workflow
 
-![Alt Text](image_url)
+![Alt Text](gitStages.pnp)
 
 
 

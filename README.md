@@ -51,3 +51,6 @@ vi .gitignore
 *.java
 *.project
 ```
+
+![Alt Text](gitStages.png)
+

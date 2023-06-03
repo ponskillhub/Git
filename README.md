@@ -34,3 +34,9 @@ git init
 ```
 rm -rf .git
 ```
+
+### track status
+
+```
+git status
+```

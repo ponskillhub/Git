@@ -16,3 +16,9 @@ git version 2.40.1
 ```
 / # git config --global user.email "ponskillhub@gmail.com"
 ```
+
+```
+root@09ae4c2009ae:/# git config --list
+user.name=Pon Jagannath
+user.email==
+```

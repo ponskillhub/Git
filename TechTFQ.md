@@ -29,6 +29,30 @@ git status
 
 ![Alt Text](gitworkflow.png)
 
+### to see files in staging area
+
+```
+git ls-files
+```
+
+### add file to the staging area
+
+```
+git add test.txt
+```
+
+### to remove a file from staging area
+
+```
+git rm --cached test2.txt
+```
+
+### add all files in working directory to the staging area
+
+```
+git add .
+```
+
 
 
 

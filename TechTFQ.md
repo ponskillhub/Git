@@ -29,7 +29,7 @@ git status
 
 ![Alt Text](gitworkflow.png)
 
-### to see files in staging area
+### to see files in staging area (or) files already commited
 
 ```
 git ls-files
@@ -51,6 +51,59 @@ git rm --cached test2.txt
 
 ```
 git add .
+```
+
+### commit
+
+```
+git commit -m "Added two new dummy files"
+```
+
+### commit history
+
+```
+git log
+```
+
+### HEAD -> master
+it points to the current commit
+
+
+### print the log in a single line
+
+```
+git log --oneline
+```
+
+### check the branch in the repo
+
+```
+git branch
+```
+
+### create a new branch
+
+```
+git branch clock
+```
+
+### check which is the current branch
+
+```
+root@09ae4c2009ae://digital_clock# git status
+On branch master
+nothing to commit, working tree clean
+```
+
+### this shows that both master and clock branch has the same code
+
+```
+root@09ae4c2009ae://digital_clock# git log --oneline
+721c83c (HEAD -> master, clock) removed the second line
+312ce95 added a welcome message
+64e979a added a new digitalclock program
+ddb6af4 second
+fb1510d Added two new dummy files
 ```
 
 

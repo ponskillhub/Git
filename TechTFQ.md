@@ -95,7 +95,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-### this shows that both master and clock branch has the same code
+### this shows that both master and clock branch has the same commit
 
 ```
 root@09ae4c2009ae://digital_clock# git log --oneline
@@ -105,6 +105,53 @@ root@09ae4c2009ae://digital_clock# git log --oneline
 ddb6af4 second
 fb1510d Added two new dummy files
 ```
+
+### switch to the clock branch
+
+```
+git switch clock
+```
+
+```
+root@09ae4c2009ae://digital_clock# git status
+On branch clock
+nothing to commit, working tree clean
+```
+
+```
+root@09ae4c2009ae://digital_clock# git log --oneline
+721c83c (HEAD -> clock, master) removed the second line
+312ce95 added a welcome message
+64e979a added a new digitalclock program
+ddb6af4 second
+fb1510d Added two new dummy files
+```
+
+### add new line in clock branch and then commit
+
+```
+root@09ae4c2009ae://digital_clock# git log --oneline
+23d9736 (HEAD -> clock) added third line
+721c83c (master) removed the second line
+312ce95 added a welcome message
+64e979a added a new digitalclock program
+ddb6af4 second
+fb1510d Added two new dummy files
+```
+
+### merge
+
+```
+git switch master
+```
+
+```
+root@09ae4c2009ae://digital_clock# git merge clock
+Updating 721c83c..23d9736
+Fast-forward
+ digitalclock.py | 1 +
+ 1 file changed, 1 insertion(+)
+ ```
 
 
 

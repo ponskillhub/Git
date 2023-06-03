@@ -52,5 +52,19 @@ vi .gitignore
 *.project
 ```
 
-![Alt Text](gitStages.png)
+![GitStatus](gitStages.png)
+
+```
+git status
+```
+
+### Add files to staging area
+
+```
+git add .gitignore
+```
+
+```
+git add -ALL
+```
 

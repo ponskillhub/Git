@@ -40,3 +40,14 @@ rm -rf .git
 ```
 git status
 ```
+
+### git ignore
+
+```
+vi .gitignore
+```
+
+```
+*.java
+*.project
+```

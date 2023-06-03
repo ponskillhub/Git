@@ -118,5 +118,24 @@ root@09ae4c2009ae://Cloned-Repo# git branch -a
   remotes/origin/master
 ```
 
+### git difference
+
+```
+git diff
+```
+
+### Push changes to the remote repo
+
+```
+root@09ae4c2009ae://Clone-linx-Remo# git pull origin main
+From https://github.com/ponskillhub/linux
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+```
+
+
+
+
+
 
 

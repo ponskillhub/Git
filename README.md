@@ -97,3 +97,17 @@ Date:   Sat Jun 3 04:40:33 2023 +0000
     Initial Commit
 ```
 
+### git clone
+
+```
+git clone ../Remote-Repo/.git .
+```
+
+### View info about the remote repo
+
+```
+root@09ae4c2009ae://Cloned-Repo# git remote -v
+origin  //Cloned-Repo/../Remote-Repo/.git (fetch)
+origin  //Cloned-Repo/../Remote-Repo/.git (push)
+```
+

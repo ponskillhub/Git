@@ -68,3 +68,21 @@ git add .gitignore
 git add -ALL
 ```
 
+### Remove a file from staging area
+
+```
+git reset .gitignore
+```
+
+### remove all files from staging area
+
+```
+git reset
+```
+
+### Commit code
+
+```
+git commit -m "Initial Commit"
+```
+

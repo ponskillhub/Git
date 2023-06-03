@@ -111,3 +111,12 @@ origin  //Cloned-Repo/../Remote-Repo/.git (fetch)
 origin  //Cloned-Repo/../Remote-Repo/.git (push)
 ```
 
+```
+root@09ae4c2009ae://Cloned-Repo# git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+```
+
+
+

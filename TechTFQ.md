@@ -152,6 +152,32 @@ Fast-forward
  digitalclock.py | 1 +
  1 file changed, 1 insertion(+)
  ```
+ 
+ ### git reset
+ 
+ ```
+ 23d9736 (HEAD -> clock, master) added third line
+721c83c removed the second line
+312ce95 added a welcome message
+64e979a added a new digitalclock program
+ddb6af4 second
+fb1510d Added two new dummy files
+```
+
+```
+root@09ae4c2009ae://digital_clock# git reset --hard ddb6af4
+HEAD is now at ddb6af4 second
+```
+
+```
+root@09ae4c2009ae://digital_clock# git log --oneline
+ddb6af4 (HEAD -> clock) second
+fb1510d Added two new dummy files
+```
+
+### git checkout
+
+
 
 
 
